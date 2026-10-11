@@ -29,7 +29,7 @@ else:
     st.sidebar.warning(f"📊 ফ্রি ইউজার: আজকের ব্যবহার {st.session_state.photos_count}/6")
     st.sidebar.markdown("---")
     st.sidebar.subheader("মাত্র ৯৯ টাকায় ১ মাস আনলিমিটেড!")
-    st.sidebar.write("bKash/Nagad (Send Money): **017XXXXXXXX**")
+    st.sidebar.write("Nagad (Send Money): **01963320934**")
     
     trx_id = st.sidebar.text_input("TrxID (ট্রানজেকশন আইডি) লিখুন:")
     if st.sidebar.button("ভেরিফাই ও প্রিমিয়াম অ্যাক্টিভ করুন"):
@@ -79,4 +79,4 @@ if uploaded_file is not None:
                     st.session_state.photos_count += 1
                     remaining = 6 - st.session_state.photos_count
                     st.success(f"সফল হয়েছে! আজকের বাকি ফ্রি সীমা: {remaining}/6")
-                    
+        
